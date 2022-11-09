@@ -2,32 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-09T09:23:59 IST" name="Default suite" finished-at="2022-11-09T09:24:11 IST" duration-ms="12139">
+  <suite started-at="2022-11-09T14:13:19 IST" name="Default suite" finished-at="2022-11-09T14:13:37 IST" duration-ms="18272">
     <groups>
     </groups>
-    <test started-at="2022-11-09T09:23:59 IST" name="Default test" finished-at="2022-11-09T09:24:11 IST" duration-ms="12139">
-      <class name="com.magento.mobileTest.IndexPageTest">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.mobileTest.IndexPageTest@16ec5519]" started-at="2022-11-09T09:23:59 IST" name="loadConfig" finished-at="2022-11-09T09:23:59 IST" duration-ms="9" status="PASS">
+    <test started-at="2022-11-09T14:13:19 IST" name="Default test" finished-at="2022-11-09T14:13:37 IST" duration-ms="18272">
+      <class name="com.magento.mobileCost.TC_MobileCostPage_001">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@6a192cfe]" started-at="2022-11-09T14:13:19 IST" name="loadConfig" finished-at="2022-11-09T14:13:19 IST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileTest.IndexPageTest@16ec5519]" started-at="2022-11-09T09:23:59 IST" name="launchApp" finished-at="2022-11-09T09:24:09 IST" duration-ms="9988" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@6a192cfe]" started-at="2022-11-09T14:13:19 IST" name="launchApp" finished-at="2022-11-09T14:13:31 IST" duration-ms="12496" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.magento.mobileTest.IndexPageTest@16ec5519]" started-at="2022-11-09T09:24:09 IST" name="verifyTitle" finished-at="2022-11-09T09:24:09 IST" duration-ms="17" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="clickOnMobileTab()[pri:0, instance:com.magento.mobileTest.IndexPageTest@16ec5519]" started-at="2022-11-09T09:24:09 IST" name="clickOnMobileTab" finished-at="2022-11-09T09:24:10 IST" depends-on-methods="com.magento.mobileTest.IndexPageTest.verifyTitle" duration-ms="1512" status="PASS">
+        <test-method signature="clickOnMobileTab()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@6a192cfe]" started-at="2022-11-09T14:13:31 IST" name="clickOnMobileTab" finished-at="2022-11-09T14:13:33 IST" duration-ms="2251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnMobileTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.mobileTest.IndexPageTest@16ec5519]" started-at="2022-11-09T09:24:10 IST" name="tearDown" finished-at="2022-11-09T09:24:11 IST" duration-ms="560" status="PASS">
+        <test-method signature="compareMobileCost()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@6a192cfe]" started-at="2022-11-09T14:13:33 IST" name="compareMobileCost" finished-at="2022-11-09T14:13:37 IST" depends-on-methods="com.magento.mobileCost.TC_MobileCostPage_001.clickOnMobileTab" duration-ms="3450" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.mobileTest.IndexPageTest -->
+        </test-method> <!-- compareMobileCost -->
+      </class> <!-- com.magento.mobileCost.TC_MobileCostPage_001 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

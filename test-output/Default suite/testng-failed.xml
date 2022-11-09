@@ -3,13 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.magento.mobileTest.SearchMobileItemTest">
+      <class name="com.magento.mobileCost.TC_MobileCostPage_001">
         <methods>
-          <include name="clickOnMobileMenu"/>
           <include name="loadConfig"/>
-          <include name="verifyPageTitle"/>
+          <include name="clickOnMobileTab"/>
+          <include name="compareMobileCost"/>
+          <include name="launchApp"/>
         </methods>
-      </class> <!-- com.magento.mobileTest.SearchMobileItemTest -->
+      </class> <!-- com.magento.mobileCost.TC_MobileCostPage_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
