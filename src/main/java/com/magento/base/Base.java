@@ -44,6 +44,7 @@ public class Base {
 		
 		WebDriverManager.firefoxdriver().setup();
 		WebDriverManager.chromedriver().setup();
+		
 		String browserName = prop.getProperty("browser");
 		
 		if(browserName.contains("chrome")) {
@@ -65,7 +66,7 @@ public class Base {
 		
 	}
 	
-	@AfterClass
+	
 	public static void tearDown() {
 		
 		driver.close();
