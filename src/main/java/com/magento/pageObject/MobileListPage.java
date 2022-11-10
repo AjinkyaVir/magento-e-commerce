@@ -21,6 +21,9 @@ public class MobileListPage extends Base{
 	@FindBy(xpath = "//a[text()='Sony Xperia']")
 	private WebElement clickMobile;
 	
+	@FindBy(xpath= "//a[text()='Sony Xperia']//following::div[@class='actions']/button")
+	private WebElement clickOnAddToCartBtn;
+	
 	public MobileListPage(){
 		
 		PageFactory.initElements(driver, this);
@@ -42,6 +45,13 @@ public class MobileListPage extends Base{
 		 
 		 CommonActions.click(driver, clickMobile);
 		 return new MobileDetailPage();
+		 
+	 }
+	 
+	 public ShoppinCartPage clickOnAddToCartBtn() {
+		 CommonActions.scrollByVisibilityOfElement(driver, clickOnAddToCartBtn);
+		 CommonActions.click(driver, clickOnAddToCartBtn);
+		 return new ShoppinCartPage();
 		 
 	 }
 

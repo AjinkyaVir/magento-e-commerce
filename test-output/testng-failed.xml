@@ -3,14 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.magento.mobileCost.TC_MobileCostPage_001">
+      <class name="com.magento.shoppingCart.TC_ShoppingCart_003">
         <methods>
           <include name="loadConfig"/>
-          <include name="clickOnMobileTab"/>
-          <include name="compareMobileCost"/>
+          <include name="proudctCount"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- com.magento.mobileCost.TC_MobileCostPage_001 -->
+      </class> <!-- com.magento.shoppingCart.TC_ShoppingCart_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

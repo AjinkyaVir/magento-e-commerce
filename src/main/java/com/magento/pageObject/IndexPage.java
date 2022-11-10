@@ -9,7 +9,7 @@ import com.magento.base.Base;
 
 public class IndexPage extends Base{
 
-	@FindBy(xpath = "(//a[@class='level0 '])[1]")
+	@FindBy(xpath = "//a[text()='Mobile']")
 	private WebElement mobileBtn;
 	
 	
