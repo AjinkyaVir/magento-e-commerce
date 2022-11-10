@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-10T11:21:16 IST" name="Default suite" finished-at="2022-11-10T11:21:35 IST" duration-ms="18999">
+  <suite started-at="2022-11-10T15:07:31 IST" name="Default suite" finished-at="2022-11-10T15:08:09 IST" duration-ms="38096">
     <groups>
     </groups>
-    <test started-at="2022-11-10T11:21:16 IST" name="Default test" finished-at="2022-11-10T11:21:35 IST" duration-ms="18999">
-      <class name="com.magento.shoppingCart.TC_ShoppingCart_003">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@188715b5]" started-at="2022-11-10T11:21:16 IST" name="loadConfig" finished-at="2022-11-10T11:21:16 IST" duration-ms="11" status="PASS">
+    <test started-at="2022-11-10T15:07:31 IST" name="Default test" finished-at="2022-11-10T15:08:09 IST" duration-ms="38096">
+      <class name="com.magento.mobileListPageTest.TC_MobileListPageTest_005">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@188715b5]" started-at="2022-11-10T15:07:31 IST" name="loadConfig" finished-at="2022-11-10T15:07:31 IST" duration-ms="11" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@188715b5]" started-at="2022-11-10T11:21:16 IST" name="launchApp" finished-at="2022-11-10T11:21:25 IST" duration-ms="8938" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@188715b5]" started-at="2022-11-10T15:07:31 IST" name="launchApp" finished-at="2022-11-10T15:07:40 IST" duration-ms="9003" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="proudctCount()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@188715b5]" started-at="2022-11-10T11:21:25 IST" name="proudctCount" finished-at="2022-11-10T11:21:32 IST" duration-ms="6776" status="PASS">
+        <test-method signature="compareProduct()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@188715b5]" started-at="2022-11-10T15:07:40 IST" name="compareProduct" finished-at="2022-11-10T15:07:50 IST" duration-ms="9681" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- proudctCount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@188715b5]" started-at="2022-11-10T11:21:32 IST" name="tearDown" finished-at="2022-11-10T11:21:35 IST" duration-ms="3232" status="PASS">
+        </test-method> <!-- compareProduct -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@188715b5]" started-at="2022-11-10T15:07:50 IST" name="tearDown" finished-at="2022-11-10T15:08:09 IST" duration-ms="19322" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.shoppingCart.TC_ShoppingCart_003 -->
+      </class> <!-- com.magento.mobileListPageTest.TC_MobileListPageTest_005 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

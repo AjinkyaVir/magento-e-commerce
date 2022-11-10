@@ -6,6 +6,7 @@
       <class name="com.magento.shoppingCart.TC_ShoppingCart_003">
         <methods>
           <include name="loadConfig"/>
+          <include name="tearDown"/>
           <include name="proudctCount"/>
           <include name="launchApp"/>
         </methods>

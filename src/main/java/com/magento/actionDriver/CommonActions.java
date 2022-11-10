@@ -1,5 +1,6 @@
 package com.magento.actionDriver;
 
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.JavascriptExecutor;
@@ -34,9 +35,27 @@ public class CommonActions extends Base {
 	 * 
 	 */
 	public static void click(WebDriver driver,WebElement element) {
-		
-		Actions act = new Actions(driver);
-		act.moveToElement(element).click().build().perform();
+
+		boolean flag = false;
+		try {
+			
+			element.isDisplayed();
+			Actions act = new Actions(driver);
+			act.moveToElement(element).click().build().perform();
+			flag = true;
+			
+		}catch(Exception e) {
+			
+			System.out.println("Element not visible");
+			flag = false;
+			
+		}finally {
+			if(flag) {
+				System.out.println("Element is visible");
+			}else {
+				System.out.println("Element is't visible");
+			}
+		}
 			
 	}
 	
@@ -106,5 +125,120 @@ public class CommonActions extends Base {
 		
 	}
 	
+	/**
+	 * 
+	 *  switchToNewWindow(WebDriver driver) - To switch to new window
+	 * 
+	 * @param driver
+	 * @return
+	 */
+	
+	public static boolean switchToNewWindow(WebDriver driver) {
+		
+		boolean flag = false;
+		try {
+			
+			Set<String> newWindow = driver.getWindowHandles();
+			Object[] popUp = newWindow.toArray();
+			driver.switchTo().window(popUp[1].toString());
+			flag = true;
+			return flag;
+			
+		}catch(Exception e) {
+			
+			flag = false;
+			return flag;
+			
+		}finally {
+			
+			if(flag) {
+				
+				System.out.println("Switched to new Window");
+				
+			}else {
+				
+				System.out.println("Not switched to new Window");
+				
+			}
+			
+		}
+		
+	}
+	
+	/**
+	 * 
+	 * switchBackToOldWindow(WebDriver driver) - To switch back to main window
+	 * 
+	 * @param driver
+	 * @return
+	 */
+	
+	public static boolean switchBackToOldWindow(WebDriver driver) {
+		
+		boolean flag = false;
+		try {
+			
+			Set<String> oldWin = driver.getWindowHandles();
+			Object[] popUp = oldWin.toArray();
+			driver.switchTo().window(popUp[0].toString());
+			
+			flag = true;
+			return flag;
+			
+		}catch(Exception e) {
+			
+			flag = false;
+			return flag;
+		}finally {
+			
+			if(flag) {
+				
+				System.out.println("Window switch back to main window");
+				
+			}else {
+				
+				System.out.println("Window doesn't switch back to main window.");
+				
+			}
+			
+		}
+		
+		
+		
+		
+		
+	}
+	
+	
+	/**
+	 * 
+	 * getTitle(WebDriver driver) - To get title of a window
+	 * 
+	 * @param driver
+	 * @return
+	 */
+	
+	public static String getTitle(WebDriver driver) {
+		
+		boolean flag = false;
+		
+		String title = driver.getTitle();
+		if(flag) {
+			System.out.println("Title of page " + title);
+		}
+		return title;
+		
+	}
+	
+	/**
+	 * 
+	 * closeCurrentWindow(WebDriver driver) - To close current window
+	 * 
+	 */
+	public static void closeCurrentWindow(WebDriver driver) {
+		
+		driver.close();
+		
+	}
 	
 }

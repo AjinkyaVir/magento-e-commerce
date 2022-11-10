@@ -23,6 +23,7 @@ public class TC_ShoppingCart_003 extends Base {
 
 		indexPage = new IndexPage();
 		indexPage.clickOnMobileTab();
+		
 		mobileListPage = new MobileListPage();
 		mobileListPage.clickOnAddToCartBtn();
 
@@ -49,5 +50,7 @@ public class TC_ShoppingCart_003 extends Base {
 		
 		
 	}
+	
+	
 
 }

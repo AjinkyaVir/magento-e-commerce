@@ -3,6 +3,8 @@ package com.magento.base;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
@@ -61,7 +63,27 @@ public class Base {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
 		
-		driver.get(prop.getProperty("url"));
+			boolean flag = false;
+		  try {
+		  
+			  driver.get(prop.getProperty("url"));
+			  flag = true;
+			  
+		  }
+		  catch(Exception e) {
+			  
+			  System.out.println("Internet Not Connected"); 
+			  flag = false;
+		  }finally {
+			  if(flag) {
+				  System.out.println("URL hitted successfully");
+			  }else {
+				  System.out.println("Network error. Please check Internet connection!");
+			  }
+			  
+		  }
+		 
+		
 		
 		
 	}

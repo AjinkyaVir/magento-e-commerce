@@ -61,5 +61,7 @@ public class ShoppinCartPage extends Base {
 		return validateEmptyCartMessage;
 		
 	}
+	
+
 
 }
