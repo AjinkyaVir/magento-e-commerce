@@ -6,6 +6,7 @@ import com.magento.base.Base;
 import com.magento.pageObject.IndexPage;
 import com.magento.pageObject.MobileListPage;
 import com.magento.pageObject.ShoppinCartPage;
+import com.magento.utility.Log;
 
 public class TC_MobileListPageTest_005 extends Base{
 
@@ -15,26 +16,31 @@ public class TC_MobileListPageTest_005 extends Base{
 	
 	@Test
 	public void compareProduct() throws InterruptedException {
-		
+		Log.startTestCase("compareProduct");
 		indexPage = new IndexPage();
 		indexPage.clickOnMobileTab();
-		
+		Log.info("Mobile Tab is clicked");
 		mobileListPage = new MobileListPage();
 		
 		mobileListPage.clickOnSamsungCompareToButton();
 		mobileListPage.clickOnIphoneCompareToButton();
 		mobileListPage.clickOnCompareButton();
 		
+		Log.info("Compare Button is clicked");
+		
 		mobileListPage.switchWindow(driver);
+		Log.info("Switch to new window successfully");
 		mobileListPage.getWindowTitle();
+		Log.info("Windows Title printed successfully");
 		mobileListPage.closeCurrentWindow();
 		mobileListPage.switchBackToOldWindow(driver);
+		Log.info("Switch back to old window successfully");
 		mobileListPage.getWindowTitle();
 	
 		Thread.sleep(2000);
 		
 		System.out.println("executed successfully!!!");
-		
+		Log.endTestCase("compareProduct");
 	}
 	
 }

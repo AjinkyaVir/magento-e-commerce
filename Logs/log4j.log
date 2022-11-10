@@ -1,0 +1,9 @@
+2022-11-10 15:36:44 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-10 15:36:52 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-10 15:40:21 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-10 15:40:23 INFO  Log:22 - Mobile Tab is clicked
+2022-11-10 15:40:26 INFO  Log:22 - Compare Button is clicked
+2022-11-10 15:40:26 INFO  Log:22 - Switch to new window successfully
+2022-11-10 15:40:28 INFO  Log:22 - Windows Title printed successfully
+2022-11-10 15:40:28 INFO  Log:22 - Switch back to old window successfully
+2022-11-10 15:40:30 INFO  Log:15 - =====================================compareProduct TEST END=========================================

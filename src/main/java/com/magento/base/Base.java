@@ -8,6 +8,7 @@ import java.net.URLConnection;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -26,10 +27,10 @@ public class Base {
 	public static Properties prop;
 	public static WebDriver driver;
 	
-	@BeforeTest
+	@BeforeSuite
 	public void loadConfig() throws IOException {
 		
-		
+		DOMConfigurator.configure("log4j.xml");
 		prop = new Properties();
 		try {
 			FileInputStream fis = new FileInputStream(System.getProperty("user.dir") + "./configuration/config.properties");
