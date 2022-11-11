@@ -3,11 +3,11 @@ Magento-E-Commerce
 
 Indication 
 
- =>   # - Folder   ## - Package  @ - Files
+ => Main folder,  # - Folder,  ## - Package,  @ - Files
 
 Hybrid Framwork (Data Driven Framework + PageObject Design Pattern using PageFactory)
 
-src/java/main
+=>src/java/main
 
 ##base - To keep all the common functionalities
 
@@ -19,7 +19,7 @@ src/java/main
 
 ##actionDriver - To keep all the common actions which we perfom on the webpage like click(), switchTo(), likewise...
 
-src/java/test
+=>src/java/test
 
 ##all test packages - In this area where we actually write test cases.
 
