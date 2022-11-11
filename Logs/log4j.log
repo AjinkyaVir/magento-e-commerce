@@ -7,3 +7,39 @@
 2022-11-10 15:40:28 INFO  Log:22 - Windows Title printed successfully
 2022-11-10 15:40:28 INFO  Log:22 - Switch back to old window successfully
 2022-11-10 15:40:30 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 10:40:52 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 10:40:54 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 10:40:57 INFO  Log:22 - Compare Button is clicked
+2022-11-11 10:40:58 INFO  Log:22 - Switch to new window successfully
+2022-11-11 10:40:59 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 10:42:48 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 10:42:51 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 10:42:53 INFO  Log:22 - Compare Button is clicked
+2022-11-11 10:42:53 INFO  Log:22 - Switch to new window successfully
+2022-11-11 10:42:55 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 10:45:09 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 10:45:12 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 10:45:15 INFO  Log:22 - Compare Button is clicked
+2022-11-11 10:45:15 INFO  Log:22 - Switch to new window successfully
+2022-11-11 10:45:17 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 10:46:08 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 10:46:11 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 10:46:13 INFO  Log:22 - Compare Button is clicked
+2022-11-11 10:46:13 INFO  Log:22 - Switch to new window successfully
+2022-11-11 10:46:15 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 10:46:15 INFO  Log:22 - 
+2022-11-11 10:49:00 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 10:49:03 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 10:49:06 INFO  Log:22 - Compare Button is clicked
+2022-11-11 10:49:06 INFO  Log:22 - Switch to new window successfully
+2022-11-11 10:49:08 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 10:49:08 INFO  Log:22 - 
+2022-11-11 10:54:40 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 10:54:42 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 10:54:45 INFO  Log:22 - Compare Button is clicked
+2022-11-11 10:54:45 INFO  Log:22 - Switch to new window successfully
+2022-11-11 10:54:46 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 10:54:46 INFO  Log:22 - IPHONE
+2022-11-11 10:54:46 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 10:54:46 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 10:54:48 INFO  Log:15 - =====================================compareProduct TEST END=========================================
