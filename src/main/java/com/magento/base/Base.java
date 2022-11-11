@@ -12,6 +12,7 @@ import org.apache.log4j.xml.DOMConfigurator;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeClass;
@@ -26,6 +27,15 @@ public class Base {
 	
 	public static Properties prop;
 	public static WebDriver driver;
+	
+
+	/*
+	 * // Declare ThreadLocal Driver public static ThreadLocal<RemoteWebDriver>
+	 * driver = new ThreadLocal<>();
+	 * 
+	 * public static WebDriver getDriver() { // Get Driver from threadLocalmap
+	 * return driver.get(); }
+	 */
 	
 	@BeforeSuite
 	public void loadConfig() throws IOException {

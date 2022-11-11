@@ -38,7 +38,7 @@ public class TC_MobileListPageTest_005 extends Base{
 		
 		
 		productComparePage = new ProductComparePage();
-		String expectedProduct = "IPHONE";
+		String expectedProduct = "IPHONE....";
 		String actualProduct = productComparePage.verifyProductOneName();
 		Log.info(actualProduct);
 		CommonActions.assertion(actualProduct, expectedProduct);
@@ -52,6 +52,7 @@ public class TC_MobileListPageTest_005 extends Base{
 		mobileListPage.switchBackToOldWindow(driver);
 		Log.info("Switch back to old window successfully");
 		mobileListPage.getWindowTitle();
+		CommonActions.closeCurrentWindow(driver);
 	
 		Thread.sleep(2000);
 		

@@ -1,9 +1,16 @@
 package com.magento.actionDriver;
 
+import java.io.File;
+import java.io.IOException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
@@ -240,5 +247,48 @@ public class CommonActions extends Base {
 		driver.close();
 		
 	}
+
+	
+	/**
+	 * 
+	 * screenShot(WebDriver driver,String fileName) - 
+	 * To take failed test case screenshot
+	 * 
+	 * @param driver
+	 * @param fileName
+	 * @return
+	 */
+	
+	public static String screenShot(WebDriver driver,String fileName) {
+		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
+		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);
+		String destination = System.getProperty("user.dir") + "\\screenshot\\" + fileName + "_" + dateName + ".png";
+
+		try {
+			FileUtils.copyFile(source, new File(destination));
+		} catch (Exception e) {
+			e.getMessage();
+		}
+		// This new path for jenkins
+		/*
+		 * String newImageString =
+		 * "http://localhost:8082/job/MyStoreProject/ws/MyStoreProject/ScreenShots/" +
+		 * filename + "_" + dateName + ".png";
+		 */
+		
+		return destination;
+		
+		
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+	
 	
 }

@@ -43,3 +43,250 @@
 2022-11-11 10:54:46 INFO  Log:22 - SAMSUNG GALAXY
 2022-11-11 10:54:46 INFO  Log:22 - Switch back to old window successfully
 2022-11-11 10:54:48 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 11:51:09 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 11:51:11 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 11:51:14 INFO  Log:22 - Compare Button is clicked
+2022-11-11 11:51:14 INFO  Log:22 - Switch to new window successfully
+2022-11-11 11:51:16 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 11:51:16 INFO  Log:22 - IPHONE
+2022-11-11 11:54:44 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 11:54:44 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 11:54:54 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 11:55:15 INFO  Log:22 - Compare Button is clicked
+2022-11-11 11:55:15 INFO  Log:22 - Switch to new window successfully
+2022-11-11 11:55:25 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 11:55:53 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 11:56:10 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 11:56:13 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 11:56:17 INFO  Log:22 - Compare Button is clicked
+2022-11-11 11:56:17 INFO  Log:22 - Switch to new window successfully
+2022-11-11 11:56:24 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 11:56:24 INFO  Log:22 - IPHONE
+2022-11-11 11:58:15 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 11:58:15 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 11:58:26 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 11:58:44 INFO  Log:22 - Compare Button is clicked
+2022-11-11 11:59:06 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 11:59:06 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:00:02 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:00:02 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:00:04 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:00:08 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:00:08 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:00:10 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:00:10 INFO  Log:22 - IPHONE
+2022-11-11 12:00:10 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:02:37 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:02:47 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:03:13 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:04:22 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:04:27 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:04:34 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:04:34 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:04:37 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:04:37 INFO  Log:22 - IPHONE
+2022-11-11 12:07:02 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:07:03 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:07:06 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:07:06 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:07:08 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:07:08 INFO  Log:22 - IPHONE
+2022-11-11 12:08:13 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:08:13 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:08:16 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:08:19 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:08:19 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:08:21 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:08:21 INFO  Log:22 - IPHONE
+2022-11-11 12:08:21 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:10:59 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:10:59 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:11:00 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:11:03 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:11:03 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:11:05 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:11:05 INFO  Log:22 - IPHONE
+2022-11-11 12:11:05 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:13:49 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:13:49 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:13:51 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:13:54 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:13:54 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:13:56 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:13:56 INFO  Log:22 - IPHONE
+2022-11-11 12:13:56 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:15:17 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:15:37 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:16:15 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:16:17 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:16:20 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:16:20 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:16:22 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:19:35 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:19:37 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:19:40 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:19:40 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:20:21 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:20:49 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:20:51 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:20:54 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:20:54 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:20:56 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:20:56 INFO  Log:22 - IPHONE
+2022-11-11 12:20:56 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:20:56 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:20:58 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:22:36 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:22:36 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:22:38 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:22:41 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:22:41 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:22:43 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:22:43 INFO  Log:22 - IPHONE
+2022-11-11 12:22:43 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:22:43 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:22:45 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:22:45 INFO  Log:22 - Pass Test case is: compareProduct
+2022-11-11 12:26:16 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:26:16 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:28:54 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:28:54 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:28:59 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:29:03 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:29:04 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:29:06 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:29:06 INFO  Log:22 - IPHONE
+2022-11-11 12:29:06 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:29:06 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:29:08 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:29:08 INFO  Log:22 - Pass Test case is: compareProduct
+2022-11-11 12:30:04 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:30:04 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:30:06 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:30:09 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:30:09 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:30:11 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:30:11 INFO  Log:22 - IPHONE
+2022-11-11 12:30:11 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:30:11 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:30:13 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:30:13 INFO  Log:22 - Pass Test case is: compareProduct
+2022-11-11 12:31:55 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:31:57 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:32:00 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:32:00 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:32:03 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:32:03 INFO  Log:22 - IPHONE
+2022-11-11 12:32:03 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:32:03 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:32:05 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:33:17 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:33:17 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:33:20 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:33:24 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:33:24 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:33:26 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:33:26 INFO  Log:22 - IPHONE
+2022-11-11 12:33:27 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:33:27 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:33:29 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:33:29 INFO  Log:22 - Pass Test case is: compareProduct
+2022-11-11 12:35:16 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:35:16 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:35:19 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:35:22 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:35:22 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:35:24 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:35:24 INFO  Log:22 - IPHONE
+2022-11-11 12:35:24 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:35:24 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:35:26 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:35:26 INFO  Log:22 - Pass Test case is: compareProduct
+2022-11-11 12:35:38 INFO  Log:22 - Test strated : clickOnMobileTab
+2022-11-11 12:35:40 INFO  Log:22 - Pass Test case is: clickOnMobileTab
+2022-11-11 12:35:40 INFO  Log:22 - Test strated : compareMobileCost
+2022-11-11 12:35:43 INFO  Log:22 - Pass Test case is: compareMobileCost
+2022-11-11 12:35:54 INFO  Log:22 - Test strated : verifyTitle
+2022-11-11 12:35:54 INFO  Log:22 - Pass Test case is: verifyTitle
+2022-11-11 12:35:54 INFO  Log:22 - Test strated : clickOnMobileTab
+2022-11-11 12:35:56 INFO  Log:22 - Pass Test case is: clickOnMobileTab
+2022-11-11 12:36:07 INFO  Log:22 - Test strated : verifyPageTitle
+2022-11-11 12:36:09 INFO  Log:22 - Pass Test case is: verifyPageTitle
+2022-11-11 12:36:09 INFO  Log:22 - Test strated : clickOnMobileMenu
+2022-11-11 12:36:09 INFO  Log:22 - Pass Test case is: clickOnMobileMenu
+2022-11-11 12:36:20 INFO  Log:22 - Test strated : proudctCount
+2022-11-11 12:36:28 INFO  Log:22 - Pass Test case is: proudctCount
+2022-11-11 12:37:27 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:37:29 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:37:33 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:37:33 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:37:35 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:37:35 INFO  Log:22 - IPHONE
+2022-11-11 12:38:54 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:38:54 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:38:57 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:39:00 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:39:00 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:39:02 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:39:02 INFO  Log:22 - IPHONE
+2022-11-11 12:39:02 INFO  Log:22 - SAMSUNG GALAXY
+2022-11-11 12:39:02 INFO  Log:22 - Switch back to old window successfully
+2022-11-11 12:39:04 INFO  Log:15 - =====================================compareProduct TEST END=========================================
+2022-11-11 12:39:04 INFO  Log:22 - Pass Test case is: compareProduct
+2022-11-11 12:39:41 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:39:41 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:39:43 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:39:50 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:39:50 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:39:52 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:39:52 INFO  Log:22 - IPHONE
+2022-11-11 12:39:52 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:41:47 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:41:47 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:41:49 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:41:52 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:41:52 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:41:54 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:41:54 INFO  Log:22 - IPHONE
+2022-11-11 12:41:54 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:44:36 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:44:36 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:44:46 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:45:08 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:45:08 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:45:13 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:45:17 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:45:17 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:45:22 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:45:22 INFO  Log:22 - IPHONE
+2022-11-11 12:45:22 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:48:13 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:48:13 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:48:15 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:48:19 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:48:19 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:48:22 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:48:22 INFO  Log:22 - IPHONE
+2022-11-11 12:48:22 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:49:49 INFO  Log:22 - Test strated : compareProduct
+2022-11-11 12:49:49 INFO  Log:11 - =====================================compareProduct TEST START=========================================
+2022-11-11 12:49:51 INFO  Log:22 - Mobile Tab is clicked
+2022-11-11 12:49:55 INFO  Log:22 - Compare Button is clicked
+2022-11-11 12:49:55 INFO  Log:22 - Switch to new window successfully
+2022-11-11 12:49:57 INFO  Log:22 - Windows Title printed successfully
+2022-11-11 12:49:57 INFO  Log:22 - IPHONE
+2022-11-11 12:49:57 INFO  Log:22 - Test case fail : compareProduct
+2022-11-11 12:50:09 INFO  Log:22 - Test strated : clickOnMobileTab
+2022-11-11 12:50:11 INFO  Log:22 - Pass Test case is: clickOnMobileTab
+2022-11-11 12:50:11 INFO  Log:22 - Test strated : compareMobileCost
+2022-11-11 12:50:15 INFO  Log:22 - Pass Test case is: compareMobileCost
+2022-11-11 12:50:28 INFO  Log:22 - Test strated : verifyTitle
+2022-11-11 12:50:28 INFO  Log:22 - Pass Test case is: verifyTitle
+2022-11-11 12:50:28 INFO  Log:22 - Test strated : clickOnMobileTab
+2022-11-11 12:50:30 INFO  Log:22 - Pass Test case is: clickOnMobileTab
+2022-11-11 12:50:41 INFO  Log:22 - Test strated : verifyPageTitle
+2022-11-11 12:50:44 INFO  Log:22 - Pass Test case is: verifyPageTitle
+2022-11-11 12:50:44 INFO  Log:22 - Test strated : clickOnMobileMenu
+2022-11-11 12:50:44 INFO  Log:22 - Pass Test case is: clickOnMobileMenu
+2022-11-11 12:50:55 INFO  Log:22 - Test strated : proudctCount
+2022-11-11 12:51:04 INFO  Log:22 - Pass Test case is: proudctCount
