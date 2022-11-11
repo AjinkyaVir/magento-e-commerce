@@ -3,7 +3,7 @@ Magento-E-Commerce
 
 Indication 
 
-# - Folder   ## - Package  @ - Files
+ =>   # - Folder   ## - Package  @ - Files
 
 Hybrid Framwork (Data Driven Framework + PageObject Design Pattern using PageFactory)
 
