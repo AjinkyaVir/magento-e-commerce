@@ -65,5 +65,5 @@ Test folder according to module/pages
 
 ****** IMPORTANT POINTS TO REMEMBER ******
 
-1) After taking screenshot please update project structure to see captured screenshot
+1) After taking screenshot please refresh project structure to see captured screenshot
 
