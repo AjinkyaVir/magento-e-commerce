@@ -1,150 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="13" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
-    <line>
-      <![CDATA[click on mobile tab]]>
-    </line>
   </reporter-output>
-  <suite started-at="2022-11-11T12:49:40 IST" name="Suite" finished-at="2022-11-11T12:51:08 IST" duration-ms="87423">
+  <suite started-at="2022-11-16T15:22:30 IST" name="Default suite" finished-at="2022-11-16T15:22:53 IST" duration-ms="23453">
     <groups>
     </groups>
-    <test started-at="2022-11-11T12:49:40 IST" name="Test" finished-at="2022-11-11T12:51:08 IST" duration-ms="87423">
-      <class name="com.magento.mobileTest.IndexPageTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileTest.IndexPageTest@dbf57b3]" started-at="2022-11-11T12:50:19 IST" name="launchApp" finished-at="2022-11-11T12:50:28 IST" duration-ms="9833" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyTitle()[pri:0, instance:com.magento.mobileTest.IndexPageTest@dbf57b3]" started-at="2022-11-11T12:50:28 IST" name="verifyTitle" finished-at="2022-11-11T12:50:28 IST" duration-ms="14" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyTitle -->
-        <test-method signature="clickOnMobileTab()[pri:0, instance:com.magento.mobileTest.IndexPageTest@dbf57b3]" started-at="2022-11-11T12:50:28 IST" name="clickOnMobileTab" finished-at="2022-11-11T12:50:30 IST" depends-on-methods="com.magento.mobileTest.IndexPageTest.verifyTitle" duration-ms="1913" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnMobileTab -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.mobileTest.IndexPageTest@dbf57b3]" started-at="2022-11-11T12:50:30 IST" name="tearDown" finished-at="2022-11-11T12:50:34 IST" duration-ms="3201" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.mobileTest.IndexPageTest -->
-      <class name="com.magento.mobileCost.TC_MobileCostPage_001">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@123ef382]" started-at="2022-11-11T12:50:00 IST" name="launchApp" finished-at="2022-11-11T12:50:09 IST" duration-ms="8837" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="clickOnMobileTab()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@123ef382]" started-at="2022-11-11T12:50:09 IST" name="clickOnMobileTab" finished-at="2022-11-11T12:50:11 IST" duration-ms="2498" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnMobileTab -->
-        <test-method signature="compareMobileCost()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@123ef382]" started-at="2022-11-11T12:50:11 IST" name="compareMobileCost" finished-at="2022-11-11T12:50:15 IST" depends-on-methods="com.magento.mobileCost.TC_MobileCostPage_001.clickOnMobileTab" duration-ms="4038" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- compareMobileCost -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.mobileCost.TC_MobileCostPage_001@123ef382]" started-at="2022-11-11T12:50:15 IST" name="tearDown" finished-at="2022-11-11T12:50:19 IST" duration-ms="3143" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.mobileCost.TC_MobileCostPage_001 -->
-      <class name="com.magento.shoppingCart.TC_ShoppingCart_003">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@7334aada]" started-at="2022-11-11T12:50:47 IST" name="launchApp" finished-at="2022-11-11T12:50:55 IST" duration-ms="7978" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="proudctCount()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@7334aada]" started-at="2022-11-11T12:50:55 IST" name="proudctCount" finished-at="2022-11-11T12:51:04 IST" duration-ms="9238" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- proudctCount -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.shoppingCart.TC_ShoppingCart_003@7334aada]" started-at="2022-11-11T12:51:04 IST" name="tearDown" finished-at="2022-11-11T12:51:08 IST" duration-ms="3416" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.shoppingCart.TC_ShoppingCart_003 -->
-      <class name="com.magento.mobileTest.SearchMobileItemTest">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileTest.SearchMobileItemTest@384ad17b]" started-at="2022-11-11T12:50:34 IST" name="launchApp" finished-at="2022-11-11T12:50:41 IST" duration-ms="7945" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- launchApp -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:com.magento.mobileTest.SearchMobileItemTest@384ad17b]" started-at="2022-11-11T12:50:41 IST" name="verifyPageTitle" finished-at="2022-11-11T12:50:44 IST" duration-ms="2103" status="PASS">
-          <reporter-output>
-            <line>
-              <![CDATA[click on mobile tab]]>
-            </line>
-          </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-        <test-method signature="clickOnMobileMenu()[pri:0, instance:com.magento.mobileTest.SearchMobileItemTest@384ad17b]" started-at="2022-11-11T12:50:44 IST" name="clickOnMobileMenu" finished-at="2022-11-11T12:50:44 IST" depends-on-methods="com.magento.mobileTest.SearchMobileItemTest.verifyPageTitle" duration-ms="244" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- clickOnMobileMenu -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.mobileTest.SearchMobileItemTest@384ad17b]" started-at="2022-11-11T12:50:44 IST" name="tearDown" finished-at="2022-11-11T12:50:47 IST" duration-ms="3246" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.mobileTest.SearchMobileItemTest -->
-      <class name="com.magento.base.Base">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.base.Base@3835c46]" started-at="2022-11-11T12:49:40 IST" name="loadConfig" finished-at="2022-11-11T12:49:40 IST" duration-ms="204" status="PASS">
+    <test started-at="2022-11-16T15:22:30 IST" name="Default test" finished-at="2022-11-16T15:22:53 IST" duration-ms="23453">
+      <class name="com.magento.accountRegistration.TC_Registration_005">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@56620197]" started-at="2022-11-16T15:22:30 IST" name="loadConfig" finished-at="2022-11-16T15:22:30 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-      </class> <!-- com.magento.base.Base -->
-      <class name="com.magento.mobileListPageTest.TC_MobileListPageTest_005">
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@795cd85e]" started-at="2022-11-11T12:49:40 IST" name="launchApp" finished-at="2022-11-11T12:49:49 IST" duration-ms="9091" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@56620197]" started-at="2022-11-16T15:22:30 IST" name="launchApp" finished-at="2022-11-16T15:22:44 IST" duration-ms="14250" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="compareProduct()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@795cd85e]" started-at="2022-11-11T12:49:49 IST" name="compareProduct" finished-at="2022-11-11T12:49:57 IST" duration-ms="7387" status="FAIL">
-          <exception class="java.lang.AssertionError">
-            <message>
-              <![CDATA[expected [IPHONE....] but found [IPHONE]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.AssertionError: expected [IPHONE....] but found [IPHONE]
-at org.testng.Assert.fail(Assert.java:99)
-at org.testng.Assert.failNotEquals(Assert.java:1037)
-at org.testng.Assert.assertEqualsImpl(Assert.java:140)
-at org.testng.Assert.assertEquals(Assert.java:122)
-at org.testng.Assert.assertEquals(Assert.java:629)
-at org.testng.Assert.assertEquals(Assert.java:639)
-at com.magento.actionDriver.CommonActions.assertion(CommonActions.java:131)
-at com.magento.mobileListPageTest.TC_MobileListPageTest_005.compareProduct(TC_MobileListPageTest_005.java:44)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:567)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.AssertionError -->
+        <test-method signature="accountRegistration()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@56620197]" started-at="2022-11-16T15:22:44 IST" name="accountRegistration" finished-at="2022-11-16T15:22:50 IST" duration-ms="5955" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- compareProduct -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.mobileListPageTest.TC_MobileListPageTest_005@795cd85e]" started-at="2022-11-11T12:49:57 IST" name="tearDown" finished-at="2022-11-11T12:50:00 IST" duration-ms="3087" status="PASS">
+        </test-method> <!-- accountRegistration -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@56620197]" started-at="2022-11-16T15:22:50 IST" name="tearDown" finished-at="2022-11-16T15:22:53 IST" duration-ms="3202" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.mobileListPageTest.TC_MobileListPageTest_005 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- com.magento.accountRegistration.TC_Registration_005 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

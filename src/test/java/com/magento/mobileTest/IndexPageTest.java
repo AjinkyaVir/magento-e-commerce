@@ -31,7 +31,7 @@ public class IndexPageTest extends Base {
 	 */
 	 
 
-	@Test
+	@Test(groups = {"smoke","Regression"})
 	public void verifyTitle() {
 
 		//Base.launchApp();
@@ -48,7 +48,7 @@ public class IndexPageTest extends Base {
 
 	}
 
-	@Test(dependsOnMethods = "verifyTitle")
+	@Test(dependsOnMethods = "verifyTitle",groups = "Regression")
 	public void clickOnMobileTab() {
 
 		indexPage = new IndexPage();

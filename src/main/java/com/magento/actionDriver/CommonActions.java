@@ -260,6 +260,9 @@ public class CommonActions extends Base {
 	 */
 	
 	public static String screenShot(WebDriver driver,String fileName) {
+		
+		// After taking screenshot please update project structure to see captured screenshot
+		
 		String dateName = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 		TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
 		File source = takesScreenshot.getScreenshotAs(OutputType.FILE);

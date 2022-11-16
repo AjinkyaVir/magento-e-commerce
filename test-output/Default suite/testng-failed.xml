@@ -3,14 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.magento.mobileListPageTest.TC_MobileListPageTest_005">
+      <class name="com.magento.accountRegistration.TC_Registration_005">
         <methods>
           <include name="loadConfig"/>
-          <include name="compareProduct"/>
+          <include name="accountRegistration"/>
           <include name="tearDown"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- com.magento.mobileListPageTest.TC_MobileListPageTest_005 -->
+      </class> <!-- com.magento.accountRegistration.TC_Registration_005 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+	<listeners>
+
+		<listener class-name="com.magento.utility.Listener"></listener>
+
+	</listeners>
+
+	<test thread-count="5" name="Regression">
+		<parameter name="browser" value="chrome"></parameter>
+		<groups>
+			<run>
+				<include name="Regression"></include>
+			</run>
+		</groups>
+		<classes>
+			<class name="com.magento.base.Base" />
+			<class name="com.magento.mobileListPageTest.TC_MobileListPageTest_005" />
+			<class name="com.magento.mobileCost.TC_MobileCostPage_001" />
+			<class name="com.magento.mobileTest.IndexPageTest" />
+			<class name="com.magento.mobileTest.SearchMobileItemTest" />
+			<class name="com.magento.shoppingCart.TC_ShoppingCart_003" />
+		</classes>
+	</test> <!-- Regression -->
+</suite> <!-- Suite -->
