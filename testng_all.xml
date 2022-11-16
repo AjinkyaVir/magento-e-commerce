@@ -12,11 +12,12 @@
 	<test thread-count="5" name="Test">
 		<classes>
 			<class name="com.magento.base.Base" />
-			<class name="com.magento.mobileListPageTest.TC_MobileListPageTest_005" />
+			<!-- <class name="com.magento.mobileListPageTest.TC_MobileListPageTest_005" />
 			<class name="com.magento.mobileCost.TC_MobileCostPage_001" />
 			<class name="com.magento.mobileTest.IndexPageTest" />
 			<class name="com.magento.mobileTest.SearchMobileItemTest" />
-			<class name="com.magento.shoppingCart.TC_ShoppingCart_003" />
+			<class name="com.magento.shoppingCart.TC_ShoppingCart_003" />-->
+			<class name="com.magento.accountRegistration.TC_Registration_005"/>
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

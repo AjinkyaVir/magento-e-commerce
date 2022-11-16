@@ -12,6 +12,8 @@ public class IndexPage extends Base{
 	@FindBy(xpath = "//a[text()='Mobile']")
 	private WebElement mobileBtn;
 	
+	@FindBy(xpath = "//a[text()='TV']")
+	private WebElement tvBtn;
 	
 	
 	public IndexPage() {
@@ -26,6 +28,11 @@ public class IndexPage extends Base{
 		return new SearchMobileItems();
 	}
 	
-	
+	public TvListPage clickOnTvBtn() {
+		
+		CommonActions.click(driver, tvBtn);
+		return new TvListPage();
+		
+	}
 	
 }

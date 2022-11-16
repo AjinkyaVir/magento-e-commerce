@@ -8,6 +8,7 @@
           <include name="loadConfig"/>
           <include name="accountRegistration"/>
           <include name="tearDown"/>
+          <include name="addProductIntoWishList"/>
           <include name="launchApp"/>
         </methods>
       </class> <!-- com.magento.accountRegistration.TC_Registration_005 -->
