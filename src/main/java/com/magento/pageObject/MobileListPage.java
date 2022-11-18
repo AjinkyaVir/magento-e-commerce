@@ -1,5 +1,8 @@
 package com.magento.pageObject;
 
+import java.util.List;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -99,10 +102,11 @@ public class MobileListPage extends Base {
 		CommonActions.closeCurrentWindow(driver);
 	}
 
-	public void sortMobile(int index) {
-		
+	public void clickOnSortDropDown() {
 		CommonActions.click(driver, sortMobile);
-		
+	}
+	
+	public void sortMobile(int index) {
 		CommonActions.selectByIndex(sortMobile, index);
 	}
 	

@@ -11,7 +11,6 @@ import com.magento.base.Base;
 import com.magento.pageObject.IndexPage;
 import com.magento.pageObject.MobileListPage;
 import com.magento.utility.Log;
-
 @Listeners(com.magento.utility.Listener.class)
 public class VerfiyTitleOfAPage extends Base {
 
@@ -34,25 +33,41 @@ public class VerfiyTitleOfAPage extends Base {
 
 		indexPage = new IndexPage();
 		indexPage.clickOnMobileTab();
-
+		
 		CommonActions.implicitWait(driver, 30);
 		mobileListPage = new MobileListPage();
 		String expectedTitle = "Mobile";
 		String actualTitle = mobileListPage.getWindowTitle();
 		Log.info("Mobile Page title : " + actualTitle);
 		CommonActions.assertion(actualTitle, expectedTitle);
-
+		
 	}
-
+	
 	@Test
 	public void sortMobileList() {
-
+		
 		indexPage = new IndexPage();
 		indexPage.clickOnMobileTab();
-
-		mobileListPage = new MobileListPage();
-		mobileListPage.sortMobile(1);
-
+		
+		
+		
+		
+		  mobileListPage = new MobileListPage();
+		  mobileListPage.clickOnSortDropDown();
+		  mobileListPage.sortMobile(1);
+		 
+		 
+		 
+		
+			
+		
+		/*
+		 * WebElement e =
+		 * driver.findElement(By.xpath("(//select[@title='Sort By'])[1]")); e.click();
+		 * Select s = new Select(e); s.selectByIndex(-1);
+		 */
+			 
+		
 	}
 
 }

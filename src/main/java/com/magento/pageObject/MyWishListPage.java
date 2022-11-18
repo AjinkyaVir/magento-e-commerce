@@ -18,7 +18,8 @@ public class MyWishListPage extends Base{
 	@FindBy(xpath = "//button[@title='Share Wishlist']")
 	private WebElement clickShareWishlistBtn;
 	
-	
+	@FindBy(xpath = "//span[text()='Add to Cart']")
+	private WebElement clickOnAddToCartBtn;
 	
 	public MyWishListPage() {
 		
@@ -42,6 +43,10 @@ public class MyWishListPage extends Base{
 		
 	}
 	
-	
+	public void clickOnAddToCartBtn() {
+		
+		CommonActions.click(driver, clickOnAddToCartBtn);
+		
+	}
 	
 }

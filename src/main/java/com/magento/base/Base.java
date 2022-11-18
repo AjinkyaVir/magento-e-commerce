@@ -99,12 +99,12 @@ public class Base {
 		
 	}
 	
-	@AfterClass
-	public static void tearDown() throws InterruptedException {
-		Thread.sleep(3000);
-		driver.close();
-		
-	}
+	/*
+	 * @AfterClass public static void tearDown() throws InterruptedException {
+	 * //Thread.sleep(3000); driver.close();
+	 * 
+	 * }
+	 */
 	
 	
 }

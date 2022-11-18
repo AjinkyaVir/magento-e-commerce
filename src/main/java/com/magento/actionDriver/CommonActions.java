@@ -314,6 +314,7 @@ public class CommonActions extends Base {
 		try {
 			
 			Select select = new Select(ele);
+			
 			select.selectByIndex(index);
 			flag = true;
 			return true;

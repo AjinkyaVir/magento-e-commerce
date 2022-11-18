@@ -20,6 +20,14 @@ public class MyAccountPage extends Base{
 	@FindBy(xpath = "//a[@title='Create an Account']")
 	private WebElement clickOnCreateAccountPage;
 	
+	@FindBy(xpath ="//input[@id='email']")
+	private WebElement enterEmailId;
+	
+	@FindBy(xpath = "//input[@id='pass']")
+	private WebElement enterPassword;
+	
+	@FindBy(xpath = "//span[text()='Login']")
+	private WebElement clickOnLoginBtn;
 	
 	public MyAccountPage(){
 		
@@ -43,4 +51,16 @@ public class MyAccountPage extends Base{
 		return new RegistrationPage();
 	}
 	
+	
+	public void enterEmailId(String email) {
+		CommonActions.type(enterEmailId, email);
+	}
+	
+	public void enterPassword(String password) {
+		CommonActions.type(enterPassword, password);
+	}
+	
+	public void clickOnLoginBtn() {
+		CommonActions.click(driver, clickOnLoginBtn);
+	}
 }

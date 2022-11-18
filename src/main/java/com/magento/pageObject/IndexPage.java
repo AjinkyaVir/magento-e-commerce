@@ -18,6 +18,11 @@ public class IndexPage extends Base{
 	@FindBy(xpath = "//div[@class='page-title']")
 	private WebElement pageTitle;
 	
+	@FindBy(xpath = "(//span[text()='Account'])[1]")
+	private WebElement clickAccountTab;
+	
+	@FindBy(xpath = "(//a[text()='My Account'])[1]")
+	private WebElement clickOnMyAccountLink;
 	
 	public IndexPage() {
 		PageFactory.initElements(driver, this);
@@ -49,6 +54,14 @@ public class IndexPage extends Base{
 		String webSiteTitle = CommonActions.getTitle(driver);
 		return webSiteTitle;
 		
+	}
+	
+	public void clickAccountTab() {
+		CommonActions.click(driver, clickAccountTab);
+	}
+	
+	public void clickOnMyAccountLink() {
+		CommonActions.click(driver, clickOnMyAccountLink);
 	}
 	
 }
