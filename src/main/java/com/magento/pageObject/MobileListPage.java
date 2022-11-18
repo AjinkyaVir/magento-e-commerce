@@ -15,7 +15,10 @@ public class MobileListPage extends Base {
 	 * xpath="//div[@class='category-products']//child::li[@class='item last']//div[@class='product-info']//h2[@class='product-name']/a"
 	 * ) private WebElement listOfMobiles;
 	 */
-
+	
+	@FindBy(xpath = "(//select[@title='Sort By'])[1]")
+	private WebElement sortMobile;
+	
 	@FindBy(xpath = "//span[@id='product-price-1']//span[@class='price']")
 	private WebElement mobileCost;
 
@@ -96,4 +99,11 @@ public class MobileListPage extends Base {
 		CommonActions.closeCurrentWindow(driver);
 	}
 
+	public void sortMobile(int index) {
+		
+		CommonActions.click(driver, sortMobile);
+		
+		CommonActions.selectByIndex(sortMobile, index);
+	}
+	
 }

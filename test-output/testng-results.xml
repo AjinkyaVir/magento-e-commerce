@@ -1,33 +1,92 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-16T18:18:40 IST" name="Default suite" finished-at="2022-11-16T18:19:21 IST" duration-ms="41014">
+  <suite started-at="2022-11-18T09:37:16 IST" name="Default suite" finished-at="2022-11-18T09:38:03 IST" duration-ms="46392">
     <groups>
     </groups>
-    <test started-at="2022-11-16T18:18:40 IST" name="Default test" finished-at="2022-11-16T18:19:21 IST" duration-ms="41014">
-      <class name="com.magento.accountRegistration.TC_Registration_005">
-        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@393671df]" started-at="2022-11-16T18:18:40 IST" name="loadConfig" finished-at="2022-11-16T18:18:40 IST" duration-ms="139" status="PASS">
+    <test started-at="2022-11-18T09:37:16 IST" name="Default test" finished-at="2022-11-18T09:38:03 IST" duration-ms="46392">
+      <class name="com.mgento.indexpagetitletest.VerfiyTitleOfAPage">
+        <test-method is-config="true" signature="loadConfig()[pri:0, instance:com.mgento.indexpagetitletest.VerfiyTitleOfAPage@72057ecf]" started-at="2022-11-18T09:37:16 IST" name="loadConfig" finished-at="2022-11-18T09:37:16 IST" duration-ms="147" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loadConfig -->
-        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@393671df]" started-at="2022-11-16T18:18:40 IST" name="launchApp" finished-at="2022-11-16T18:18:49 IST" duration-ms="8713" status="PASS">
+        <test-method is-config="true" signature="launchApp()[pri:0, instance:com.mgento.indexpagetitletest.VerfiyTitleOfAPage@72057ecf]" started-at="2022-11-18T09:37:16 IST" name="launchApp" finished-at="2022-11-18T09:37:24 IST" duration-ms="7774" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApp -->
-        <test-method signature="accountRegistration()[pri:1, instance:com.magento.accountRegistration.TC_Registration_005@393671df]" started-at="2022-11-16T18:18:49 IST" name="accountRegistration" finished-at="2022-11-16T18:18:55 IST" duration-ms="6074" status="PASS">
+        <test-method signature="sortMobileList()[pri:0, instance:com.mgento.indexpagetitletest.VerfiyTitleOfAPage@72057ecf]" started-at="2022-11-18T09:37:24 IST" name="sortMobileList" finished-at="2022-11-18T09:37:27 IST" duration-ms="3163" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- accountRegistration -->
-        <test-method signature="addProductIntoWishList()[pri:2, instance:com.magento.accountRegistration.TC_Registration_005@393671df]" started-at="2022-11-16T18:18:55 IST" name="addProductIntoWishList" finished-at="2022-11-16T18:19:02 IST" duration-ms="6917" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addProductIntoWishList -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.magento.accountRegistration.TC_Registration_005@393671df]" started-at="2022-11-16T18:19:02 IST" name="tearDown" finished-at="2022-11-16T18:19:21 IST" duration-ms="19255" status="PASS">
+        </test-method> <!-- sortMobileList -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.mgento.indexpagetitletest.VerfiyTitleOfAPage@72057ecf]" started-at="2022-11-18T09:37:27 IST" name="tearDown" finished-at="2022-11-18T09:38:03 IST" duration-ms="35410" status="FAIL">
+          <exception class="org.openqa.selenium.WebDriverException">
+            <message>
+              <![CDATA[disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OL7ELR1', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc14eec996629f70fa0dfb4e62df4c8]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
+  (failed to check if window was closed: disconnected: unable to connect to renderer)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-OL7ELR1', ip: '192.168.1.204', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\lenovo\AppData\Loc...}, goog:chromeOptions: {debuggerAddress: localhost:59425}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ffc14eec996629f70fa0dfb4e62df4c8
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:442)
+at com.magento.base.Base.tearDown(Base.java:105)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.internal.TestMethodWorker.invokeAfterClassMethods(TestMethodWorker.java:217)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:130)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.WebDriverException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.magento.accountRegistration.TC_Registration_005 -->
+      </class> <!-- com.mgento.indexpagetitletest.VerfiyTitleOfAPage -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

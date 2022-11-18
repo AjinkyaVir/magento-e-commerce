@@ -15,6 +15,9 @@ public class IndexPage extends Base{
 	@FindBy(xpath = "//a[text()='TV']")
 	private WebElement tvBtn;
 	
+	@FindBy(xpath = "//div[@class='page-title']")
+	private WebElement pageTitle;
+	
 	
 	public IndexPage() {
 		PageFactory.initElements(driver, this);
@@ -32,6 +35,19 @@ public class IndexPage extends Base{
 		
 		CommonActions.click(driver, tvBtn);
 		return new TvListPage();
+		
+	}
+	
+	public String verifyPageTitle() {
+		String verfiyTitle = pageTitle.getText().toUpperCase();
+		return verfiyTitle;
+		
+	}
+	
+	public String verifyWebsiteTitle() {
+		
+		String webSiteTitle = CommonActions.getTitle(driver);
+		return webSiteTitle;
 		
 	}
 	

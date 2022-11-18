@@ -3,15 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.magento.accountRegistration.TC_Registration_005">
+      <class name="com.mgento.indexpagetitletest.VerfiyTitleOfAPage">
         <methods>
           <include name="loadConfig"/>
-          <include name="accountRegistration"/>
           <include name="tearDown"/>
-          <include name="addProductIntoWishList"/>
+          <include name="sortMobileList"/>
           <include name="launchApp"/>
         </methods>
-      </class> <!-- com.magento.accountRegistration.TC_Registration_005 -->
+      </class> <!-- com.mgento.indexpagetitletest.VerfiyTitleOfAPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -14,6 +14,7 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 
 import com.magento.base.Base;
@@ -281,14 +282,57 @@ public class CommonActions extends Base {
 		 */
 		
 		return destination;
-		
-		
-		
-		
 	}
 	
 	
+	public static boolean selectByVisibleText(WebElement element,String visbleText) {
+		boolean flag = false;
+		
+		try {
+			
+			Select select = new Select(element);
+			select.selectByVisibleText(visbleText);
+			flag = true;
+			return true;
+			
+		}catch(Exception e) {
+			return false;
+		}finally {
+			
+			if(flag) {
+				System.out.println("Option selected by visible text.");
+			}else {
+				System.out.println("Option not selected by visible text.");
+			}
+			
+		}
+		
+	}
 	
+	public static boolean selectByIndex(WebElement ele,int index) {
+		boolean flag = false;
+		try {
+			
+			Select select = new Select(ele);
+			select.selectByIndex(index);
+			flag = true;
+			return true;
+			
+		}catch(Exception e) {
+			System.out.println("Exception == >> " + e);
+			flag = false;
+			return false;
+		}finally {
+			
+			if(flag) {
+				System.out.println("Option selected by index.");
+			}else {
+				System.out.println("Option not selected by index.");
+			}
+			
+		}
+		
+	}
 	
 	
 	
